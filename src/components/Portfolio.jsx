@@ -2,6 +2,18 @@ import React from 'react'
 import net from '../assets/netflix.png'
 
 const Porfolio = () => {
+
+  const Projects = [
+    {
+      id:1,
+      title:"Netflix Clone",
+      desc:"Netflix Landing Page Clone using React JS and Tailwind CSS with Authentication Feature using Firebase",
+      imgLink:net,
+      codeLink:"https://github.com/codegoggins/netflix-clone",
+      projectLink:"https://netflix-clone-13127.firebaseapp.com/"
+    }
+  ]
+
   return (
     <div 
     className='px-20 py-4'>
@@ -12,39 +24,45 @@ const Porfolio = () => {
         <div
         className='mt-8 flex flex-col justify-center items-center md:flex md:items-start'
         >
-          {/* SINGLE CARD */}
-            <div 
-            className='w-[500px] h-auto relative group'>
+        {
+          Projects.map(({id,title,desc,imgLink,codeLink,projectLink})=>(
+            <>
+            {/* SINGLE CARD */}
+            <div className='w-[340px] h-auto relative group md:w-[500px]'>
               {/* OVERLAY */}
                <div 
-               className='bg-black/80 text-lg absolute flex top-0 bottom-0 h-full w-full rounded-lg overflow-hidden opacity-0 group-hover:opacity-100 transition-all duration-300'>
+               className='bg-black/80 text-sm md:text-lg absolute flex top-0 bottom-0 h-full w-full rounded-lg overflow-hidden opacity-0 group-hover:opacity-100 transition-all duration-300'>
                {/* PROJECT DETAILS */}
                <div 
-               className='text-white text-lg flex flex-col p-4 gap-2 items-center justify-center'>
+               className='text-white text-sm md:text-lg flex flex-col p-4 gap-3 md:gap-2 items-center justify-center'>
                {/* TITLE */}
-               <p>Netflix Clone</p>
+               <p>{title}</p>
                {/* DETAIL */}
-               <p>Netflix Landing Page Clone using React JS and Tailwind CSS with Authentication Feature using Firebase</p>
+               <p>{desc}</p>
                {/* BUTTONS */}
                <div 
-               className='flex gap-3 text-lg'>
+               className='flex gap-3 text-sm md:text-lg'>
                   <button
                   className='cursor-pointer font-semibold p-1.5 px-4 rounded-md bg-white text-black transition ease-linear duration-300'
                   >
-                    <a href="">Code</a>
+                    <a href={codeLink} target='_blank' rel="noreferrer">Code</a>
                   </button>
                   <button
                   className='cursor-pointer font-semibold p-1.5 px-2 rounded-md bg-white text-black transition ease-linear duration-300'>
-                    <a href="#">See Project</a>
+                    <a href={projectLink} target='_blank' rel="noreferrer">See Project</a>
                   </button>
                </div>
                </div>
                </div>
                {/* Image */}
                <div className='rounded-lg overflow-hidden'>
-               <img src={net} alt="" className='h-full w-full object-cover'/>
+               <img src={imgLink} alt="" className='h-full w-full object-cover'/>
                </div>
             </div>
+            </>
+          ))
+        }
+
         </div>
     </div>
   )
