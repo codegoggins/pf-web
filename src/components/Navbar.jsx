@@ -13,27 +13,27 @@ const Navbar = () => {
       },
       {
         id:2,
-        link:'About'
+        link:'Resume'
       },
       {
         id:3,
-        link:'Portfolio'
-      },
-      {
-        id:4,
         link:'Education'
       },
       {
-        id:5,
+        id:4,
         link:'Work Experience'
+      },
+      {
+        id:5,
+        link:'Contact Me'
       },
 
   ] ; 
 
   return (
-    <div className='flex items-center w-full h-20 bg-black text-white justify-between py-4 px-10'>
+    <div className='flex items-center w-full h-20 bg-black text-white justify-between py-4 px-10 top-0 fixed z-40'>
         <h1 className='text-4xl ml-3 font-bold'>Portfolio</h1>
-        <ul className='hidden lg:flex gap-10'>
+        <ul className='hidden lg:flex gap-6'>
              {
                 navLinks.map((navLink)=>(
                     <li key={navLink.id} className='cursor-pointer font-medium text-white text-xl capitalize hover:scale-105 duration-200'>{navLink.link}</li>
@@ -47,7 +47,7 @@ const Navbar = () => {
         </div>
         {/* MOBILE MENU */}
         { toggle && (
-        <ul className='flex flex-col items-center justify-center gap-5 absolute top-0 left-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 z-30'>
+        <ul className='flex flex-col items-center justify-center gap-6 absolute top-0 left-0 bottom-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 z-30'>
              {
                 navLinks.map((navLink)=>(
                     <li key={navLink.id} className='cursor-pointer font-medium text-white text-2xl capitalize hover:scale-105 duration-200'>{navLink.link}</li>

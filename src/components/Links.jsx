@@ -17,7 +17,10 @@ const Links = () => {
              hover:ml-[-10px]
              duration-300
              hover:rounded-md'> 
-            <a href='https://github.com/codegoggins' target='_blank' className='flex justify-between items-center w-full text-white'>
+            <a href='https://github.com/codegoggins' 
+            target='_blank' 
+            rel="noreferrer"
+            className='flex justify-between items-center w-full text-white'>        
                     <p>Github</p>
                     <GitHubIcon size={30}/>
             </a>
@@ -31,29 +34,45 @@ const Links = () => {
              hover:ml-[-10px]
              duration-300
              hover:rounded-md'> 
-            <a href='https://www.linkedin.com/in/nilay-singh-7234a31a6/' target='_blank' className='flex justify-between items-center w-full text-white'>
+            <a href='https://www.linkedin.com/in/nilay-singh-7234a31a6/' 
+            target='_blank' 
+            className='flex justify-between items-center w-full text-white'
+            rel="noreferrer"
+            >
                     <p>LinkedIn</p>
                     <LinkedInIcon size={30}/>
             </a>
             </li>
-
+            
+            {/* RESUME */}
             <li className='flex justify-between items-center w-40 h-14 px-4 bg-black  
              ml-[-100px] 
              hover:ml-[-10px]
              duration-300
              hover:rounded-md'> 
-            <a href='https://www.linkedin.com/in/nilay-singh-7234a31a6/' target='_blank' className='flex justify-between items-center w-full text-white'>
+            <a 
+            href='/resume.pdf' 
+            target='_blank'
+            rel="noreferrer" 
+            className='flex justify-between items-center w-full text-white'
+            download='resume'
+            >
                     <p>Resume</p>
                     <ArticleOutlinedIcon size={30}/>
             </a>
             </li>
 
+           {/* MAIL */}
             <li className='flex justify-between items-center w-40 h-14 px-4 bg-black  
              ml-[-100px] 
              hover:ml-[-10px]
              duration-300
              hover:rounded-md'> 
-            <a href='https://www.linkedin.com/in/nilay-singh-7234a31a6/' target='_blank' className='flex justify-between items-center w-full text-white'>
+            <a 
+            href='mailto:nilayabc17@gmail.com' 
+            target='_blank'
+            rel="noreferrer" 
+            className='flex justify-between items-center w-full text-white'>
                     <p>Mail</p>
                     <MarkunreadOutlinedIcon size={30}/>
             </a>
