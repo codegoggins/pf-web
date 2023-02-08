@@ -3,7 +3,7 @@ import emoji from "react-easy-emoji";
 const Main = () => {
   return (
     <div name='main' 
-        className='pl-20 h-screen w-full bg-gradient-to-b from-black to-gray-800 p-6 flex flex-col items-center gap-6 pt-24 md:flex-row md:items-center'>
+        className='pl-20 h-screen w-full p-6 flex flex-col items-center gap-6 pt-24 md:flex-row md:items-center'>
            {/* LEFT */}
                 <div className='text-white mt-8 flex flex-col gap-6 mb-6 md:w-1/2'>
                     <div className='flex gap-2 items-center'>

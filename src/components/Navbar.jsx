@@ -13,22 +13,22 @@ const Navbar = () => {
       },
       {
         id:2,
-        link:'Resume'
+        link:'Portfolio'
       },
       {
         id:3,
-        link:'Education'
-      },
-      {
-        id:4,
         link:'Work Experience'
       },
       {
+        id:4,
+        link:'Resume'
+      },
+      {
         id:5,
-        link:'Contact Me'
+        link:'Contact'
       },
 
-  ] ; 
+  ]; 
 
   return (
     <div className='flex items-center w-full h-20 bg-black text-white justify-between py-4 px-10 top-0 fixed z-40'>
