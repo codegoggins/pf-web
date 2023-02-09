@@ -24,7 +24,7 @@ const WorkExperience = () => {
         {/* TIMELINE */}
         <div className='relative flex flex-col items-end gap-8'>
         {/* VERTICAL LINE */}
-        <div className='absolute w-1 h-full bg-white right-[0.2rem] shadow-md'>
+        <div className='absolute w-1 h-full bg-white right-[-2rem] shadow-md'>
         </div>
         {/* CARD*/}
         {
