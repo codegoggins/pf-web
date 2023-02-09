@@ -2,6 +2,9 @@ import React, { useState } from 'react'
 import CloseOutlinedIcon from '@mui/icons-material/CloseOutlined';
 import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 
+// FOR SCROLL
+import {Link} from 'react-scroll';
+
 const Navbar = () => {
 
   const [toggle,setToggle] = useState(false);
@@ -13,7 +16,7 @@ const Navbar = () => {
       },
       {
         id:2,
-        link:'Portfolio'
+        link:'About'
       },
       {
         id:3,
@@ -21,11 +24,11 @@ const Navbar = () => {
       },
       {
         id:4,
-        link:'Education'
+        link:'Portfolio'
       },
       {
         id:5,
-        link:'Resume'
+        link:'Education'
       },
       {
         id:6,
@@ -43,8 +46,12 @@ const Navbar = () => {
         </h1>
         <ul className='hidden lg:flex gap-6'>
              {
-                navLinks.map((navLink)=>(
-                    <li key={navLink.id} className='cursor-pointer font-medium text-white text-xl capitalize hover:scale-105 duration-200'>{navLink.link}</li>
+                navLinks.map(({id,link})=>(
+                    <li key={id} className='cursor-pointer font-medium text-white text-xl capitalize hover:scale-105 duration-200'>
+                    <Link to={link} smooth={true} duration={600}>
+                    {link}
+                    </Link>
+                    </li>
                 ))
              }
         </ul>
@@ -57,8 +64,12 @@ const Navbar = () => {
         { toggle && (
         <ul className='flex flex-col items-center justify-center gap-6 absolute top-0 left-0 bottom-0 w-full h-screen bg-black z-30'>
              {
-                navLinks.map((navLink)=>(
-                    <li key={navLink.id} className='cursor-pointer font-medium text-white text-2xl capitalize hover:scale-105 duration-200'>{navLink.link}</li>
+                navLinks.map(({id,link})=>(
+                    <li key={id} className='cursor-pointer font-medium text-white text-2xl capitalize hover:scale-105 duration-200'>
+                    <Link to={link} smooth={true} duration={600}>
+                       {link}
+                    </Link>
+                    </li>
                 ))
              }
         </ul>

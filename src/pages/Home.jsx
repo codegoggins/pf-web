@@ -10,7 +10,7 @@ import About from '../components/About'
 
 const Home = () => {
   return (
-    <div>
+    <div id='Home'>
         <Navbar/>
         <Main/>
         <About/>

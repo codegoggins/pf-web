@@ -6,7 +6,7 @@ const Porfolio = () => {
 
   return (
     <div 
-    className='px-12 mt-36'>
+    className='px-12 py-20 mt-36' id='Portfolio'>
         <p className='text-white text-[2.8rem] mb-10'>Portfolio</p>
         <Projects/>
         <Skills/>

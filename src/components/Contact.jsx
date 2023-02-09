@@ -5,7 +5,7 @@ import EmailIcon from '@mui/icons-material/Email';
 
 const Contact = () => {
   return (
-    <div className='flex flex-col items-center justify-center text-white gap-6 p-2 py-24'>
+    <div className='flex flex-col items-center justify-center text-white gap-6 p-2 py-24' id='Contact'>
           <h1 className='text-4xl sm:text-5xl font-bold antialiased'>Keep In Touch .</h1>
           <p className='text-xl text-center w-[50%]'>I'm currently specializing in MERN Stack Development. Feel free to get in touch and talk more about your projects.</p>
           <div className='flex flex-col gap-4 md:flex-row'>
