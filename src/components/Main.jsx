@@ -25,12 +25,12 @@ const Main = () => {
                      </div>
 
                      {/* BUTTONS */}
-                     <div className='flex gap-8 md:flex-row'>
+                     <div className='flex flex-col gap-8 md:flex-row'>
                         <a
                         className='bg-[#141414] px-4 p-4 flex items-center gap-2 rounded-md' 
                         href="https://www.linkedin.com/in/nilay-singh-7234a31a6/"
                         target='_blank'
-                        rel='noreferer'
+                        rel='noreferrer'
                         >
                         <LinkedInIcon className='text-[#2ea759]'/>
                         <p>LinkedIn</p>
@@ -38,7 +38,7 @@ const Main = () => {
                         <a
                         className='bg-[#141414] px-4 p-4 flex items-center gap-2 rounded-md' 
                         target='_blank'
-                        rel='noreferer'
+                        rel='noreferrer'
                         href="/resume.pdf"
                         download='resume'
                         >
@@ -48,7 +48,7 @@ const Main = () => {
                         <a
                         className='bg-[#141414] px-4 p-4 flex items-center gap-2 rounded-md' 
                         target='_blank'
-                        rel='noreferer'
+                        rel='noreferrer'
                         href="https://github.com/codegoggins"
                         >
                         <GitHubIcon className='text-[#2ea759]'/>

@@ -20,20 +20,20 @@ const Projects = () => {
       projectLink:"https://netflix-clone-13127.firebaseapp.com/"
     },
     {
-      id:2,
-      title:"tesla clone",
-      desc:"A fully responsive Tesla Clone App created using React JS , redux , firebase. Clone App designed using styled components in React JS. Authentication done using Firebase and Redux state management tool / Redux Toolkit",
-      imgLink:tesla,
-      codeLink:"https://github.com/codegoggins/tesla-clone",
-      projectLink:"https://tesla-clone-eb138.web.app/"
-    },
-    {
       id:3,
       title:"weather app",
       desc:"Weather app created using HTML CSS and Javascript & Openweathermap API. OpenWeather API provides us with weather forecasts, nowcasts and history in a fast and elegant way",
       imgLink:weather,
       codeLink:"https://github.com/codegoggins/Weather-App",
       projectLink:"https://stellar-sfogliatella-c26c41.netlify.app/"
+    },
+    {
+      id:2,
+      title:"tesla clone",
+      desc:"A fully responsive Tesla Clone App created using React JS , redux , firebase. Clone App designed using styled components in React JS. Authentication done using Firebase and Redux state management tool / Redux Toolkit",
+      imgLink:tesla,
+      codeLink:"https://github.com/codegoggins/tesla-clone",
+      projectLink:"https://tesla-clone-eb138.web.app/"
     },
     {
       id:4,
@@ -66,10 +66,10 @@ const Projects = () => {
                      <div className='flex items-center justify-between'>
                      <p className='text-2xl font-bold'>{title}</p>
                      <div className='flex gap-4'>
-                     <a href={codeLink} target='_blank' rel='noreferer'>
+                     <a href={codeLink} target='_blank' rel='noreferrer'>
                         <GitHubIcon fontSize='large'/>
                      </a>
-                     <a href={projectLink} target='_blank' rel='noreferer'>
+                     <a href={projectLink} target='_blank' rel='noreferrer'>
                         <NearMeIcon fontSize='large'/>
                      </a>
                      </div>
