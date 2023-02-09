@@ -13,7 +13,7 @@ const Main = () => {
                         </h1>
                         <span className='text-3xl animate-bounce z-20'>{emoji("👋")}</span>
                     </div>
-                    <div className='leading-7 flex flex-col items-center justify-start gap-8 mt-2 md:flex-row md:text-2xl'>
+                    <div className='leading-7 text-xl flex flex-col items-center justify-start gap-8 mt-2 md:flex-row md:text-2xl'>
                         <p>A passionate Full Stack Software Developer 🚀 having an experience of building Web Applications with JavaScript / Reactjs / Nodejs / MongoDB and some other cool libraries and frameworks.</p>
                      </div>
                      <div className='gap-3 hidden md:flex'>

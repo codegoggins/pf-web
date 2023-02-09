@@ -1,4 +1,5 @@
 import React from 'react'
+import Education from '../components/Education'
 import Links from '../components/Links'
 import Main from '../components/Main'
 import Navbar from '../components/Navbar'
@@ -11,6 +12,7 @@ const Home = () => {
         <Main/>
         <Links/>
         <Portfolio/>
+        <Education/>
     </div>
   )
 }

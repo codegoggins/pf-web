@@ -15,8 +15,7 @@ const Projects = () => {
   ]
 
   return (
-    <div 
-    className='py-4'>
+    <div className='py-4'>
         <p
         className='text-white text-4xl border-b-4 border-gray-500 inline'
         >My Work</p>

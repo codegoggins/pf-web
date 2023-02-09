@@ -11,7 +11,6 @@ const Porfolio = () => {
         <p className='text-white text-[2.8rem] mb-10'>Portfolio</p>
         <Projects/>
         <Skills/>
-        <Education/>
     </div>
   )
 }

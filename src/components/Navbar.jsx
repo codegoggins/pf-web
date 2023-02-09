@@ -36,7 +36,11 @@ const Navbar = () => {
 
   return (
     <div className='flex items-center w-full h-20 bg-black text-white justify-between py-4 px-10 top-0 fixed z-40'>
-        <h1 className='text-4xl ml-3 font-bold'>Portfolio</h1>
+        <h1 className='text-3xl sm:text-4xl ml-3 font-bold'>
+        <a href="https://github.com/codegoggins" target='_blank' rel='noreferer'>
+        {`{codegoggins}`}
+        </a>
+        </h1>
         <ul className='hidden lg:flex gap-6'>
              {
                 navLinks.map((navLink)=>(
