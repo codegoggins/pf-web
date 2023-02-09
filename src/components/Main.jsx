@@ -2,6 +2,9 @@ import React from 'react'
 import emoji from "react-easy-emoji";
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import ArticleIcon from '@mui/icons-material/Article';
+import GitHubIcon from '@mui/icons-material/GitHub';
+
+
 const Main = () => {
   return (
     <div name='main' 
@@ -25,15 +28,31 @@ const Main = () => {
                      <div className='flex gap-8 md:flex-row'>
                         <a
                         className='bg-[#141414] px-4 p-4 flex items-center gap-2 rounded-md' 
-                        href="">
+                        href="https://www.linkedin.com/in/nilay-singh-7234a31a6/"
+                        target='_blank'
+                        rel='noreferer'
+                        >
                         <LinkedInIcon className='text-[#2ea759]'/>
                         <p>LinkedIn</p>
                         </a>
                         <a
                         className='bg-[#141414] px-4 p-4 flex items-center gap-2 rounded-md' 
-                        href="">
+                        target='_blank'
+                        rel='noreferer'
+                        href="/resume.pdf"
+                        download='resume'
+                        >
                         <ArticleIcon className='text-[#2ea759]'/>
                         <p>Resume</p>
+                        </a>
+                        <a
+                        className='bg-[#141414] px-4 p-4 flex items-center gap-2 rounded-md' 
+                        target='_blank'
+                        rel='noreferer'
+                        href="https://github.com/codegoggins"
+                        >
+                        <GitHubIcon className='text-[#2ea759]'/>
+                        <p>Github</p>
                         </a>
                     </div>
 

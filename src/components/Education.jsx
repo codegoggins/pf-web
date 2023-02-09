@@ -11,7 +11,7 @@ const Education = () => {
       instName:"St. Francis School",
       instLoc:"Indirapuram , Ghaziabad",
       instClass:"Class X",
-      grade:"94.6 %"
+      grade:"94.6%"
     },
     {
       id:2,
@@ -20,7 +20,7 @@ const Education = () => {
       instName:"St. Francis School",
       instLoc:"Indirapuram , Ghaziabad",
       instClass:"Class XII",
-      grade:"92 %"
+      grade:"92%"
     },
     {
       id:3,

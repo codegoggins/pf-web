@@ -95,7 +95,7 @@ const Skills = () => {
 
   return (
     <div className='py-6 mt-6'>
-        <p className='text-white text-4xl border-b-4 border-gray-500 inline leading-normal'>Tech Stack</p>
+        <p className='text-white text-4xl border-b-4 border-[#2ea759] inline leading-normal'>Tech Stack</p>
         {/* CARDS */}
         <div className='w-full grid grid-cols-2 place-items-center sm:place-items-start sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-4 gap-8 mt-10'>
            

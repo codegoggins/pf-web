@@ -19,8 +19,9 @@ const WorkExperience = () => {
   return (
     <div className='px-12 mt-20 py-12'>
         <p className='text-white text-[2.8rem] mb-6 flex items-center justify-end gap-3'>
+        Work Experience
         <SpokeIcon fontSize='large' className='text-[#2ea759]'/>
-        Work Experience</p>
+        </p>
         {/* TIMELINE */}
         <div className='relative flex flex-col items-end gap-8'>
         {/* VERTICAL LINE */}
