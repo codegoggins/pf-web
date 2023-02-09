@@ -5,7 +5,7 @@ import emoji from "react-easy-emoji";
 
 const About = () => {
   return (
-    <div className='px-20 w-full p-2 flex flex-col items-center justify-around gap-6 pt-16 md:flex-row md:items-center'>
+    <div className='px-12 w-full p-2 flex flex-col items-center justify-around gap-6 pt-16 md:flex-row md:items-center'>
            {/* LEFT */}
                 <div className='text-white mt-8 flex flex-col gap-6 mb-6 md:w-1/2'>
                     <div className='flex gap-2 items-center'>

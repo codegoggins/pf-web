@@ -1,37 +1,43 @@
 import React from 'react'
 import emoji from "react-easy-emoji";
-import mainImg from '../assets/main.png'
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import ArticleIcon from '@mui/icons-material/Article';
 const Main = () => {
   return (
     <div name='main' 
-        className='px-20 h-screen w-full p-2 flex flex-col items-center justify-around gap-6 pt-48 md:flex-row md:items-center'>
-           {/* LEFT */}
-                <div className='text-white mt-8 flex flex-col gap-6 mb-6 md:w-1/2'>
-                    <div className='flex gap-2 items-center'>
-                        <h1 className='text-3xl md:text-4xl'>
-                        I'm Nilay Singh
-                        </h1>
-                        <span className='text-3xl animate-bounce z-20'>{emoji("👋")}</span>
-                    </div>
-                    <div className='leading-7 text-xl flex flex-col items-center justify-start gap-8 mt-2 md:flex-row md:text-2xl'>
-                        <p>A passionate Full Stack Software Developer 🚀 having an experience of building Web Applications with JavaScript / Reactjs / Nodejs / MongoDB and some other cool libraries and frameworks.</p>
-                     </div>
-                     <div className='gap-3 hidden md:flex'>
-                        <button className='cursor-pointer font-semibold bg-black p-3 px-4 rounded-md hover:bg-white hover:text-black transition ease-linear duration-300'>Portfolio</button>
-                        <button className='cursor-pointer font-semibold bg-black p-3 px-4 rounded-md hover:bg-white hover:text-black transition ease-linear duration-300'>Resume</button>
-                     </div>
-                </div>
-            {/* LEFT */}
+        className='px-12 h-screen w-full p-2 flex flex-col items-center justify-start gap-6 pt-24 md:flex-row md:items-center'>
 
-            {/* RIGHT */}
-                <div className='flex items-center justify-center md:w-1/2'>
-                    <img 
-                    src={mainImg} 
-                    alt=""
-                    className='h-[15rem] w-[15rem] md:h-[25rem] md:w-[25rem]'
-                     />
+                <div className='text-white mt-8 flex flex-col gap-12 mb-6'>
+                    <div className='flex gap-2 items-center'>
+                        <p className='text-2xl md:text-5xl flex flex-col items-center gap-2'>
+                           Hey there
+                        </p>
+                        <span className='text-2xl sm:text-5xl animate-bounce z-20'>{emoji("👋")}</span>
+                        <p className='text-2xl md:text-5xl'>I'm - </p>
+                    </div>
+                    <div className='leading-7 text-xl flex flex-col md:justify-start gap-8 mt-2 md:text-3xl'>
+                        <p className='font-bold text-8xl leading-12'>Nilay Singh.</p>
+                        <p  className='text-[#8f9094]'>💻 A self-taught developer with an interest in Computer Science.</p>
+                        <p  className='text-[#8f9094]'>🚀 Exploring Opportunities & Side Projects</p>
+                     </div>
+
+                     {/* BUTTONS */}
+                     <div className='flex gap-8 md:flex-row'>
+                        <a
+                        className='bg-[#141414] px-4 p-4 flex items-center gap-2 rounded-md' 
+                        href="">
+                        <LinkedInIcon className='text-[#2ea759]'/>
+                        <p>LinkedIn</p>
+                        </a>
+                        <a
+                        className='bg-[#141414] px-4 p-4 flex items-center gap-2 rounded-md' 
+                        href="">
+                        <ArticleIcon className='text-[#2ea759]'/>
+                        <p>Resume</p>
+                        </a>
+                    </div>
+
                 </div>
-            {/* RIGHT */}
     </div>
   )
 }

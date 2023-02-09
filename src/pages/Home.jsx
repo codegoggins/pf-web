@@ -10,7 +10,7 @@ import About from '../components/About'
 
 const Home = () => {
   return (
-    <div className='bg-gradient-to-b from-black to-gray-800'>
+    <div>
         <Navbar/>
         <Main/>
         <About/>

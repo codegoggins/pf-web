@@ -35,22 +35,22 @@ const Education = () => {
   ];
 
   return (
-    <div className='px-20 mt-20 py-12'>
+    <div className='px-12 mt-20 py-12'>
         <p className='text-white text-[2.8rem] mb-6 flex gap-3 items-center'>
-        <SchoolIcon fontSize='large'/>
+        <SchoolIcon fontSize='large' className='text-[#2ea759]'/>
         Education
         </p>
         {/* TIMELINE */}
         <div className='relative flex flex-col gap-8'>
         {/* VERTICAL LINE */}
-        <div className='absolute w-1 h-full bg-white left-[0.2rem] shadow-md'>
+        <div className='absolute w-1 h-full bg-[#2ea759] left-[0.2rem] shadow-md'>
         </div>
         {/* CARD*/}
             {
                  Education.map(({id,from,till,desc,instName,instLoc,instClass,grade})=>(
                   <div key={id} className='ml-8 md:w-[50%]'>
                     {/* CONTENT */}
-                    <div className='bg-white text-black p-6 rounded-md shadow-md flex flex-col gap-1'>
+                    <div className='bg-[#8f9094] text-black p-6 rounded-md shadow-md flex flex-col gap-1'>
                         <p className='text-xl font-bold'>{`${from} - ${till}`}</p>
                         <p className='text-lg font-bold'>{desc}</p>
                         <p className='text-lg'>{instName}</p>

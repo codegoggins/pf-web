@@ -55,7 +55,7 @@ const Navbar = () => {
         </div>
         {/* MOBILE MENU */}
         { toggle && (
-        <ul className='flex flex-col items-center justify-center gap-6 absolute top-0 left-0 bottom-0 w-full h-screen bg-gradient-to-b from-black to-gray-800 z-30'>
+        <ul className='flex flex-col items-center justify-center gap-6 absolute top-0 left-0 bottom-0 w-full h-screen bg-black z-30'>
              {
                 navLinks.map((navLink)=>(
                     <li key={navLink.id} className='cursor-pointer font-medium text-white text-2xl capitalize hover:scale-105 duration-200'>{navLink.link}</li>

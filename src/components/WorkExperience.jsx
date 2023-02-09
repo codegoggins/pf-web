@@ -17,21 +17,21 @@ const WorkExperience = () => {
   ];
 
   return (
-    <div className='px-20 mt-20 py-12'>
+    <div className='px-12 mt-20 py-12'>
         <p className='text-white text-[2.8rem] mb-6 flex items-center justify-end gap-3'>
-        <SpokeIcon fontSize='large'/>
+        <SpokeIcon fontSize='large' className='text-[#2ea759]'/>
         Work Experience</p>
         {/* TIMELINE */}
         <div className='relative flex flex-col items-end gap-8'>
         {/* VERTICAL LINE */}
-        <div className='absolute w-1 h-full bg-white right-[-2rem] shadow-md'>
+        <div className='absolute w-1 h-full bg-[#2ea759] right-[-2rem] shadow-md'>
         </div>
         {/* CARD*/}
         {
                  Work.map(({id,from,till,compName,compDesc,role,loc,jobDesc})=>(
                   <div key={id} className='ml-8 md:w-[50%]'>
                     {/* CONTENT */}
-                    <div className='bg-white text-black p-6 rounded-md shadow-md flex flex-col gap-1'>
+                    <div className='bg-[#8f9094] text-black p-6 rounded-md shadow-md flex flex-col gap-1'>
                         <p className='text-xl font-bold'>{`${from} - ${till}`}</p>
                         <p className='text-lg font-bold'>{compName}</p>
                         <p className='text-lg'>{compDesc}</p>
