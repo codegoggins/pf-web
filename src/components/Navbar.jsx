@@ -21,12 +21,16 @@ const Navbar = () => {
       },
       {
         id:4,
-        link:'Resume'
+        link:'Education'
       },
       {
         id:5,
-        link:'Contact'
+        link:'Resume'
       },
+      {
+        id:6,
+        link:'Contact'
+      }
 
   ]; 
 
