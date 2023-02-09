@@ -17,8 +17,9 @@ const Projects = () => {
   return (
     <div className='py-4'>
         <p
-        className='text-white text-4xl border-b-4 border-gray-500 inline'
-        >My Work</p>
+        className='text-white text-4xl border-b-4 border-gray-500 inline'>
+        My Work
+        </p>
         {/* PROJECT CARDS */}
         <div
         className='mt-8 flex flex-col justify-center items-center md:flex md:items-start'
