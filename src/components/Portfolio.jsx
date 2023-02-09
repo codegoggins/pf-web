@@ -1,4 +1,5 @@
 import React from 'react'
+import Education from './Education'
 import Projects from './Projects'
 import Skills from './Skills'
 
@@ -10,6 +11,7 @@ const Porfolio = () => {
         <p className='text-white text-[2.8rem] mb-10'>Portfolio</p>
         <Projects/>
         <Skills/>
+        <Education/>
     </div>
   )
 }

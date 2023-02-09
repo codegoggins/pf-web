@@ -7,7 +7,7 @@ import ArticleOutlinedIcon from '@mui/icons-material/ArticleOutlined';
 const Links = () => {
 
   return (
-    <div className='text-black flex flex-col left-0 fixed top-[35%] md:hidden'>
+    <div className='text-black flex flex-col left-0 fixed top-[35%] md:hidden z-30'>
         <ul>
             
             {/* GITHUB */}
@@ -61,23 +61,6 @@ const Links = () => {
                     <ArticleOutlinedIcon size={30}/>
             </a>
             </li>
-
-           {/* MAIL */}
-            <li className='flex justify-between items-center w-40 h-14 px-4 bg-black  
-             ml-[-100px] 
-             hover:ml-[-10px]
-             duration-300
-             hover:rounded-md'> 
-            <a 
-            href='mailto:nilayabc17@gmail.com' 
-            target='_blank'
-            rel="noreferrer" 
-            className='flex justify-between items-center w-full text-white'>
-                    <p>Mail</p>
-                    <MarkunreadOutlinedIcon size={30}/>
-            </a>
-            </li>
-
         </ul>
     </div>
   )

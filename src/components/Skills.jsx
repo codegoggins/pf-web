@@ -48,17 +48,7 @@ const Skills = () => {
       {
         id:6,
         imgSrc:expressLogo,
-        style:'shadow-amber-600'
-      },
-      {
-        id:7,
-        imgSrc:mongoLogo,
-        style:'shadow-lime-400'
-      },
-      {
-        id:8,
-        imgSrc:sqlLogo,
-        style:'shadow-amber-500'
+        style:'shadow-zinc-400'
       },
       {
         id:9,
@@ -66,9 +56,19 @@ const Skills = () => {
         style:'shadow-yellow-400'
       },
       {
+        id:7,
+        imgSrc:mongoLogo,
+        style:'shadow-lime-400'
+      },
+      {
         id:10,
         imgSrc:tailwindLogo,
         style:'shadow-sky-500'
+      },
+      {
+        id:8,
+        imgSrc:sqlLogo,
+        style:'shadow-amber-500'
       },
       {
         id:11,
@@ -95,7 +95,7 @@ const Skills = () => {
 
   return (
     <div className='py-6 mt-6'>
-        <p className='text-white text-4xl border-b-4 border-gray-500 inline leading-normal'>My Tech Stack</p>
+        <p className='text-white text-4xl border-b-4 border-gray-500 inline leading-normal'>Tech Stack</p>
         {/* CARDS */}
         <div className='w-full grid grid-cols-2 place-items-center sm:place-items-start sm:grid-cols-3 md:grid-cols-5 gap-8 mt-10'>
            
