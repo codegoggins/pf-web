@@ -17,7 +17,7 @@ const Projects = () => {
       desc:"A fully responsive Netflix Clone App created using React JS , tailwind CSS , firebase and React Router Dom and Context API . Context API is used for statemanagement for Firebase Authentication",
       imgLink:net,
       codeLink:"https://github.com/codegoggins/netflix-clone",
-      projectLink:"https://netflix-clone-13127.firebaseapp.com/"
+      projectLink:"https://master--graceful-donut-62653c.netlify.app/"
     },
     {
       id:3,

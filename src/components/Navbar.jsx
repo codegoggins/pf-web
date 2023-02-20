@@ -5,9 +5,10 @@ import MenuOutlinedIcon from '@mui/icons-material/MenuOutlined';
 // FOR SCROLL
 import {Link} from 'react-scroll';
 
-const Navbar = () => {
+const Navbar = () => {  
 
   const [toggle,setToggle] = useState(false);
+
 
   const navLinks = [
       {
