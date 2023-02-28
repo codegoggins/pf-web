@@ -3,6 +3,8 @@ import net from '../assets/netflix.png'
 import tesla from '../assets/tesla.png'
 import weather from '../assets/weather.png'
 import chat from '../assets/chat.png'
+import gallery from '../assets/gallery.png'
+
 
 
 import GitHubIcon from '@mui/icons-material/GitHub';
