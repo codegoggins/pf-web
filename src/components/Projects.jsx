@@ -48,7 +48,7 @@ const Projects = () => {
     {
       id:5,
       title:"Image Gallery App",
-      desc:"Image Gallery Created using Unsplash API",
+      desc:"Responsive Image Gallery Created using Unsplash API with Search Functionality using Redux Toolkit",
       imgLink:gallery,
       codeLink:"https://github.com/codegoggins/gallery",
       projectLink:"https://master--mellifluous-figolla-719608.netlify.app/"
