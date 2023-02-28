@@ -13,7 +13,7 @@ const Projects = () => {
   const ProjectsArray = [
     {
       id:1,
-      title:"netflix clone",
+      title:"Netflix Clone",
       desc:"A fully responsive Netflix Clone App created using React JS , tailwind CSS , firebase and React Router Dom and Context API . Context API is used for statemanagement for Firebase Authentication",
       imgLink:net,
       codeLink:"https://github.com/codegoggins/netflix-clone",
@@ -21,7 +21,7 @@ const Projects = () => {
     },
     {
       id:3,
-      title:"weather app",
+      title:"Weather App",
       desc:"Weather app created using HTML CSS and Javascript & Openweathermap API. OpenWeather API provides us with weather forecasts, nowcasts and history in a fast and elegant way",
       imgLink:weather,
       codeLink:"https://github.com/codegoggins/Weather-App",
@@ -29,7 +29,7 @@ const Projects = () => {
     },
     {
       id:2,
-      title:"tesla clone",
+      title:"Tesla Clone",
       desc:"A fully responsive Tesla Clone App created using React JS , redux , firebase. Clone App designed using styled components in React JS. Authentication done using Firebase and Redux state management tool / Redux Toolkit",
       imgLink:tesla,
       codeLink:"https://github.com/codegoggins/tesla-clone",
@@ -37,11 +37,19 @@ const Projects = () => {
     },
     {
       id:4,
-      title:"chat app UI",
+      title:"Chat App UI",
       desc:"A chat app UI created using React JS & Styled Components",
       imgLink:chat,
       codeLink:"https://github.com/codegoggins/chatize",
       projectLink:"https://resonant-heliotrope-fe32ac.netlify.app/"
+    },
+    {
+      id:5,
+      title:"Image Gallery App",
+      desc:"Image Gallery Created using Unsplash API",
+      imgLink:gallery,
+      codeLink:"https://github.com/codegoggins/gallery",
+      projectLink:"https://master--mellifluous-figolla-719608.netlify.app/"
     }
   ]
 
