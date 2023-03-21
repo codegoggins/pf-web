@@ -4,6 +4,8 @@ import tesla from '../assets/tesla.png'
 import weather from '../assets/weather.png'
 import chat from '../assets/chat.png'
 import gallery from '../assets/gallery.png'
+import blogify from '../assets/blogify.png'
+
 
 
 
@@ -52,6 +54,14 @@ const Projects = () => {
       imgLink:gallery,
       codeLink:"https://github.com/codegoggins/gallery",
       projectLink:"https://master--mellifluous-figolla-719608.netlify.app/"
+    },
+    {
+      id:6,
+      title:"Blogify",
+      desc:"A Fullstack Blog App created with React , NodeJS , MongoDB , ExpressJS , Firebase & Redux Toolkit.",
+      imgLink:blogify,
+      codeLink:"https://github.com/codegoggins/blogify",
+      projectLink:"https://cooperative-tan-lapel.cyclic.app/"
     }
   ]
 
