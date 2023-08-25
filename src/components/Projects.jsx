@@ -61,7 +61,7 @@ const Projects = () => {
       desc:"A Fullstack Blog App created with React , NodeJS , MongoDB , ExpressJS , Firebase & Redux Toolkit.",
       imgLink:blogify,
       codeLink:"https://github.com/codegoggins/blogify",
-      projectLink:"https://cooperative-tan-lapel.cyclic.app/"
+      projectLink:"https://blogify-codegoggins.onrender.com"
     }
   ]
 
