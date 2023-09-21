@@ -22,7 +22,7 @@ const Contact = () => {
             className='bg-[#141414] px-4 p-2 flex items-center gap-2 rounded-md' 
             target='_blank'
             rel='noreferer'
-            href="/resume.pdf"
+            href="https://1drv.ms/b/s!Ajk7J0z-JzPcgbEHoq9-mNVFOOukrA?e=24ZDP9"
             download='resume'
             >
             <ArticleIcon className='text-[#2ea759]'/>
