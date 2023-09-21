@@ -39,7 +39,7 @@ const Main = () => {
                         className='bg-[#141414] px-4 p-4 flex items-center gap-2 rounded-md' 
                         target='_blank'
                         rel='noreferrer'
-                        href="/resume.pdf"
+                        href="https://1drv.ms/b/s!Ajk7J0z-JzPcgbEHoq9-mNVFOOukrA?e=24ZDP9"
                         download='resume'
                         >
                         <ArticleIcon className='text-[#2ea759]'/>
